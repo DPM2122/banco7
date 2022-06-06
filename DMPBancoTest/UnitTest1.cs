@@ -11,6 +11,7 @@ namespace DMPBancoTest
         [TestMethod]
         public void PruebaValoresCorrectos_ResultadosEsperados()
         {
+            EstadisticasNotas estadisticas = new EstadisticasNotas();
             List<int> listaNotas = new List<int>();
 
             listaNotas.Add(0);
@@ -29,7 +30,7 @@ namespace DMPBancoTest
             int sobresalientesEsperados = 1;
 
 
-            EstadisticasNotas estadisticas = new EstadisticasNotas();
+           
             estadisticas.CalculoEstadisticas(listaNotas);
 
 
