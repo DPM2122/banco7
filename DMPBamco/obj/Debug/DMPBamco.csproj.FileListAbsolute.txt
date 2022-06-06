@@ -1,0 +1,6 @@
+C:\Users\desmp\source\repos\banco7\DMPBamco\bin\Debug\DMPBamco.dll
+C:\Users\desmp\source\repos\banco7\DMPBamco\bin\Debug\DMPBamco.pdb
+C:\Users\desmp\source\repos\banco7\DMPBamco\obj\Debug\DMPBamco.csproj.AssemblyReference.cache
+C:\Users\desmp\source\repos\banco7\DMPBamco\obj\Debug\DMPBamco.csproj.CoreCompileInputs.cache
+C:\Users\desmp\source\repos\banco7\DMPBamco\obj\Debug\DMPBamco.dll
+C:\Users\desmp\source\repos\banco7\DMPBamco\obj\Debug\DMPBamco.pdb
