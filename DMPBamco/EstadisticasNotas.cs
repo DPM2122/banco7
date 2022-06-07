@@ -32,26 +32,7 @@ namespace DMPBamco
         private double nmedia;
         /// <summary>
         /// 
-        /// </summary>
-        private const int valorSuspenso = 0;
-        /// <summary>
-        /// 
-        /// </summary>
-        private const int valorAprobado = 0;
-        /// <summary>
-        /// 
-        /// </summary>
-        private const int valorNotable = 0;
-        /// <summary>
-        /// 
-        /// </summary>
-        private const int valorSobresaliente = 0;
-        /// <summary>
-        /// 
-        /// </summary>
-        private const int valorSobresalienteExtremo = 0;
-
-        /// <summary>
+       
         /// 
         /// </summary>
         public int NumeroSuspensos { get => mnumeroSuspensos; set => mnumeroSuspensos = value; }
@@ -106,9 +87,9 @@ namespace DMPBamco
             for (int i = 0; i < listaNotas.Count; i++)
             {
                 if (listaNotas[i] < 5) NumeroSuspensos++;              // Por debajo de 5 suspenso
-                else if (listaNotas[i] >= valorAprobado && listaNotas[i] < valorNotable) NumeroAprobados++;// Nota para aprobar: 5
-                else if (listaNotas[i] >= valorNotable && listaNotas[i] < valorSobresaliente) NumeroNotables++;// Nota para notable: 7
-                else if (listaNotas[i] >= valorSobresaliente && listaNotas[i] <= valorSobresalienteExtremo) NumeroSobresalientes++;         // Nota para sobresaliente: 9
+                else if (listaNotas[i] < 7 ) NumeroAprobados++;// Nota para aprobar: 5
+                else if (listaNotas[i] < 9) NumeroNotables++;// Nota para notable: 7
+                else if (listaNotas[i] <= 10) NumeroSobresalientes++;         // Nota para sobresaliente: 9
 
                 Media = Media + listaNotas[i];
             }
